@@ -1,0 +1,298 @@
+/*Cellule tableau*/
+th {
+  border: 1px solid black;
+}
+
+/* Placement du Logo : */
+.LogoTombéduKmion {
+  padding-left: 2rem;
+}
+
+/* Mise en forme du carousel : */
+.Manu {
+  border: 1px solid #152278;
+  background: url("Img/Manu/BackgroundManu.png") no-repeat center center;
+  background-size: cover;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.carouselimage {
+  display: flex;
+  margin: auto;
+  width: auto;
+  height: 15rem;
+}
+
+.col-sm-4 {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.col-sm-8 {
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-size: 1, 5em;
+  font-weight: bold;
+  color: black;
+  padding-right: 2rem;
+}
+
+/* Mise en forme des rubriques : */
+.quantity {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  border: solid 0.1rem #3974b3;
+  float: right;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+}
+
+.TitleImg {
+  background-color: rgba(#ffffff, 0.03);
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  vertical-align: middle;
+}
+
+.TitreRubrique {
+  border: solid 0.2rem #6c757d;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  font-family: sans-serif;
+  color: #3d98d4;
+  text-align: center;
+}
+
+.imgpc {
+  position: sticky;
+  margin-top: 1.5rem;
+  width: 15rem;
+  height: 15rem;
+  text-align: center;
+}
+
+.DescriptifImg {
+  border: solid 0.2rem #3974b3;
+  text-align: center;
+  border-radius: 0.3rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.Tarif {
+  margin-left: 30px;
+  float: left;
+  text-align: center;
+  border: solid 0.2rem #72a8e0;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  background: #3974b3;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.col {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.Price {
+  float: left;
+  margin-left: 3rem;
+  font-size: 2rem;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.iconcad {
+  margin-left: 0.5rem;
+  float: right;
+  width: 3rem;
+}
+
+.addButton {
+  text-decoration: none;
+  border: none;
+  background: none;
+}
+
+/* Début du Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+footer {
+  margin-top: 50px;
+}
+
+section {
+  padding: 60px 0;
+}
+
+section .section-title {
+  text-align: center;
+  color: #007b5e;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+#footer {
+  background: grey !important;
+}
+
+#footer h5 {
+  padding-left: 10px;
+  border-left: 3px solid #eeeeee;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+  padding: 3px 0;
+}
+
+#footer ul.social li a i {
+  margin-right: 5px;
+  font-size: 25px;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+  color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+  color: #eeeeee;
+}
+
+#footer ul.quick-links li {
+  padding: 3px 0;
+  -webkit-transition: .5s all ease;
+  -moz-transition: .5s all ease;
+  transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+  padding: 3px 0;
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+  margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+  font-weight: 700;
+}
+
+#payments {
+  color: white;
+}
+
+#copyright {
+  margin-top: 10px;
+}
+
+/* #developpeurs {
+  margin-top: 60px;
+} */
+@media (max-width:767px) {
+  #footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.Descriptifoot {
+  color: white;
+}
+
+#titrelien {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#Smartpos {
+  margin-top: 1rem;
+}
+
+.partenaires{
+  color: white;
+  text-align:center;
+}
+#part1{
+margin-right: 1rem;
+margin-top: 2rem;
+float:left;
+width: 7rem;
+height: 7rem;
+}
+#part2{
+
+  text-align: center;
+  margin-right: 1rem;
+  float: left;
+  margin-top: 2rem;
+  width: 7rem;
+  height: 7rem;
+}
+#part3{
+  margin-right: 1rem;
+  text-align: center;
+  float: left;
+  margin-top: 2rem;
+  width: 14rem;
+  height: 7rem;
+}
+#part4{
+  float: left;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  width: 14rem;
+  height: 7rem;
+}
+#part5{
+  float: left;
+  margin-right: 1rem;
+  margin-top: 2rem;
+  width: 14rem;
+  height: 7rem;
+}
+/* Fin du Footer */
+
+/* Mise en responsive du logo: */
+.LogoTombéduKmion {
+  padding-left: 7rem;
+}
+
+/* Fin de la mise en responsive du logo: */
